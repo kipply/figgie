@@ -1,0 +1,12 @@
+[package]
+name = "server"
+version = "0.2.0"
+authors = ["Carol Chen <hello@carolchen.me>"]
+
+[dependencies]
+rocket = "0.4"
+
+[dependencies.rocket_contrib]
+version = "*"
+default-features = false
+features = ["json"]
